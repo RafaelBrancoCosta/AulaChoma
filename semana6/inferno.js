@@ -18,6 +18,3 @@
             document.getElementById('texto').innerText = 'Oi, voce me picou!';
             document.getElementById('imagem').src ="";
         }
-
-
-    
