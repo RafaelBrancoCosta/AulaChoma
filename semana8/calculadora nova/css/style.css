@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.botoes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.botoes button{
+    width: 50px;
+    height: 50px;
+}
