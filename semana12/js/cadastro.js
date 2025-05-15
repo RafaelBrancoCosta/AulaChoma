@@ -20,6 +20,7 @@ botao.addEventListener('click',
         listar();
     }
 );
+
 function listar(){
     const listaUsuarioCad = JSON.parse(localStorage.getItem("usuarios")) || [];
     console.log(listaUsuarioCad);
