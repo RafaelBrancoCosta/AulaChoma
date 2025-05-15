@@ -52,4 +52,5 @@ function excluirUsuario(index){
     }
     
 
-)listar();
+}
+listar();
