@@ -51,7 +51,22 @@ function excluirUsuario(index){
         localStorage.setItem("usuarios", listaJson);
         listar();
     }
-    
-
 }
+
+function editarUsuario(index){
+    const listaUsuarioCadastrados = JSON.parse(localStorage.getItem('usuarios')) || [];
+    const usuario = listaUsuarioCadastrados[index];
+    document.getElementById('login').value = usuario.login;
+    document.getElementById('senha').value = usuario.senha;
+    document.getElementById('indexEditar').value = index;
+}
+
+
+
+
+
+
+
+
+
 listar();
